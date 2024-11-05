@@ -20,3 +20,7 @@ timezone-converter = "0.1.0"
 chrono = "0.4"
 chrono-tz = "0.8"
 ``` 
+
+## Alternatively
+
+you can go to https://crates.io/crates/timezone-converter and look through how to install it from there.
