@@ -128,9 +128,11 @@ impl TimeZoneConverter {
 
         // Calculate the total offset in seconds
         let total_offset_seconds = offset.fix().local_minus_utc();
-
         // Determine if DST is in effect by checking the offset abbreviation
-        let is_dst = offset.abbreviation().ends_with("DT");
+        let is_dst = match offset.abbreviation() {
+            Some(abbr) => abbr.ends_with("DT"),
+            None => false,
+        };
 
         Ok(TimeZoneInfo {
             name: self.source_tz.name().to_string(),
