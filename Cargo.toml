@@ -1,0 +1,15 @@
+[package]
+name = "timezone-converter"
+version = "0.1.0"
+authors = ["Egwau Godfrey <egwaujunior@gmail.com>"]
+description = "A timezone conversion library that handles timezone conversions and information"
+license = "MIT"
+repository = "https://github.com/yourusername/timezone-converter"
+documentation = "https://docs.rs/timezone-converter"
+homepage = "https://github.com/yourusername/timezone-converter"
+keywords = ["timezone", "conversion", "time"]
+categories = ["date-and-time"]
+
+[dependencies]
+chrono-tz = "^0.8.0"
+chrono = "^0.4.38"
