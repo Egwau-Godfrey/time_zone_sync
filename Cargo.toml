@@ -3,12 +3,12 @@ name = "timezone-converter"
 version = "0.1.0"
 authors = ["Egwau Godfrey <egwaujunior@gmail.com>"]
 description = "A timezone conversion library that handles timezone conversions and information"
-# license = "MIT"
-# repository = "https://github.com/yourusername/timezone-converter"
-# documentation = "https://docs.rs/timezone-converter"
-# homepage = "https://github.com/yourusername/timezone-converter"
-# keywords = ["timezone", "conversion", "time"]
-# categories = ["date-and-time"]
+license = "MIT"
+repository = "https://github.com/Egwau-Godfrey/time_zone_sync"
+documentation = "https://docs.rs/timezone-converter"
+homepage = "https://github.com/Egwau-Godfrey/time_zone_sync"
+keywords = ["timezone", "conversion", "time"]
+categories = ["date-and-time"]
 edition = "2021"
 
 [dependencies]
